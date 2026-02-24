@@ -1,5 +1,6 @@
 terraform {
   cloud {
+    organization = "zhiyao0710"
     workspaces {
       name = "learn-terraform-drift-and-policy"
     }
