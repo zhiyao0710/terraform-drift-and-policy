@@ -7,3 +7,5 @@ module "network" {
 
   bastion_instance_type = var.bastion_instance_type
 }
+
+
