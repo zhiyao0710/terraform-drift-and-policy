@@ -1,6 +1,6 @@
 import "time"
 
-param forbidden_days
+param forbidden_days default ["Friday"]
 
 is_forbidden_day = rule { time.now.weekday_name in forbidden_days }
 
